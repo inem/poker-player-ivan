@@ -1,10 +1,10 @@
 
 class Player
 
-  VERSION = "Default Ruby folding player"
+  VERSION = "1000"
 
   def bet_request(game_state)
-    return rand(500)+200
+    return rand(30) + 20
   end
 
   def showdown(game_state)
